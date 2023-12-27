@@ -6,5 +6,8 @@ const ClerkLayout = ({
   return(
   <div className="h-full flex items-center justify-center">
     {children}
-  </div>)
-}
+  </div>
+  );
+};
+
+export default ClerkLayout;
