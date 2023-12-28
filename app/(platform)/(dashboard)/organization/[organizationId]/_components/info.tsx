@@ -7,7 +7,7 @@ import { useOrganization } from "@clerk/nextjs";
 import { Skeleton } from "@/components/ui/skeleton";
 
 interface InfoProps {
-  isPro: boolean;
+  isPro?: boolean;
 };
 
 export const Info = ({
